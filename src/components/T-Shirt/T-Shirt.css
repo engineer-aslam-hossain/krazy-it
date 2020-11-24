@@ -1,0 +1,22 @@
+section.tShirt {
+  background: linear-gradient(90deg, #095dd7, #70b8ff);
+}
+.pict {
+  position: relative;
+  bottom: 20rem;
+  left: 0rem;
+  border: 1px solid red;
+  padding: 1rem;
+}
+#pic {
+  position: relative;
+  color: black;
+}
+@media (max-width: 768px) {
+  .d-flex.flex-column.bd-highlight.mb-3.align-items-center {
+    margin-top: 5rem;
+  }
+  .pict {
+    bottom: 8rem;
+  }
+}
