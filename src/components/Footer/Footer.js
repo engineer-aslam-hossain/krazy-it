@@ -5,7 +5,7 @@ import logo from '../../images/logo.png';
 import './Footer.css';
 const Footer = () => {
   return (
-    <footer className='footer'>
+    <footer className='footer' id='contact'>
       <div className='container'>
         <div className='col-md-7 mx-auto d-flex flex-column align-items-center'>
           <h3>Get your design right, right now</h3>

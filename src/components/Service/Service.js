@@ -4,7 +4,10 @@ import SingleService from '../SingleService/SingleService';
 import './Service.css';
 const Service = () => {
   return (
-    <section className='serviceSection' style={{ padding: '5rem 0' }}>
+    <section
+      className='serviceSection'
+      id='service'
+      style={{ padding: '5rem 0' }}>
       <div className='container'>
         <h3
           className='text-center'

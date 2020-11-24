@@ -17,10 +17,10 @@ const Header = () => {
           <Navbar.Collapse id='basic-navbar-nav '>
             <Nav className='ml-auto justify-content-center align-items-center'>
               <Link to='/'>Home</Link>
-              <Link to='/service'>Service</Link>
+              <Link to='/'>Service</Link>
               <Link to='/preview'>Image-Preview</Link>
               <Link to='/t-shirt'>T-Shirt</Link>
-              <Link to='/contact'>Contact</Link>
+              <Link to='/'>Contact</Link>
             </Nav>
           </Navbar.Collapse>
         </Navbar>

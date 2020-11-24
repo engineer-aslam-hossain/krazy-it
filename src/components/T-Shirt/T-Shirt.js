@@ -1,11 +1,8 @@
-import React, { useRef, useState } from 'react';
-import ReactDOM from 'react-dom';
+import React, { useRef } from 'react';
 import useDraggable from './Draggable';
 import Popover from 'react-bootstrap/Popover';
 import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
 import Button from 'react-bootstrap/Button';
-import PopoverContent from 'react-bootstrap/PopoverContent';
-import PopoverTitle from 'react-bootstrap/PopoverTitle';
 import './T-Shirt.css';
 import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
